@@ -1,0 +1,39 @@
+/*FOP instruction styles*/
+@import url(../../assets/css/common-styles.css);
+
+.fop{
+    background: linear-gradient(#5BA9FF, #2F91FF);
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.fop-title{
+    padding-bottom: 40px;
+}
+
+ol{
+    list-style: none;
+    counter-reset: my-counter;
+
+    display: flex;
+    padding-left: 0px;
+}
+
+ol li{
+    counter-increment: my-counter;
+    position: relative;
+
+    width: 330px;
+    padding-right: 84px;
+}
+
+ol li::before{
+    content: "0" counter(my-counter);
+    position: absolute;
+    left: -50px;
+    bottom: 42px;
+    font-weight: 900;
+    color: #faf352;
+    font-size: 20px;
+}

@@ -1,0 +1,109 @@
+/*Tariffs styles*/
+@import url(../../assets/css/common-styles.css);
+
+.tariffs{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+table{
+    border-collapse: collapse;
+
+    margin-bottom: 50px;
+}
+
+td, th{
+    border-left: rgb(231, 231, 231) 2px solid;
+    width: 214px;
+    height: 92px;
+
+    text-align: center;
+}
+
+tr{
+    border-bottom: rgb(231, 231, 231) 2px solid;
+}
+
+.side-head{
+    border-left: none;
+
+    text-align: left;
+}
+
+.trow1, .trow4{
+    border-bottom: none;
+}
+
+.monobank-th, .monobank-tr-m, .monobank-tr-b{
+    background-color: black;
+}
+
+.monobank-tr-m{
+    border-bottom: rgb(31, 31, 31) 2px solid;
+}
+
+.tcol1, .tcol2{
+    border-left: none;
+}
+
+.monobank-th{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    position: relative;
+}
+
+.monobank-tr-b{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.bank1, .bank2, .bank3{
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.bank1{
+    color: #75AF26;
+}
+
+.bank2{
+    color: #EF002F;
+}
+
+.bank3{
+    background-image:linear-gradient(135deg, #06503C 0%, #06503C 50%, #DCDF3C 50%, #DCDF3C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.monobank-head{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.universal-bank-head{
+    margin-top: 0px;
+}
+
+.rocket{
+    position: absolute;
+    width: 60px;
+    top: -30%;
+    left: 80%;
+
+    transform: rotate(12deg);
+}
+
+.under-table-link{
+    font-size: 14px;
+    color: red;
+}
+
+.table-qoute{
+    display: flex;
+    justify-content: flex-end;
+
+    padding-right: 100px;
+}

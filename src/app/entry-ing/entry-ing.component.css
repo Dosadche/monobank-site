@@ -1,0 +1,66 @@
+/*Entry information styles*/
+@import url(../../assets/css/common-styles.css);
+
+.entry-info{
+    background:linear-gradient(#6274E3, #6A45DE);
+    padding-bottom: 170px;
+    padding-top: 120px;
+    margin-top: 30px;
+}
+
+.enty-info-content{
+    float: left;
+    width: 50%;
+
+    margin-top: 70px;
+}
+
+.entry-info-img{
+    display: flex;
+    width: 50%;
+    width: 504px;
+}
+
+form{
+    display: flex;
+    padding-top: 30px;
+}
+
+input{
+    border: none;
+    width: 100%;
+    background-color: inherit;
+    padding-left: 24px;
+}
+
+input:focus{
+    
+    border: none;
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 18px;
+    font-weight: 700;
+
+    color: #C4B0F1;
+}
+
+.input-container{
+    width: 288px;
+    height: 56px;
+    margin-right: 20px;
+
+    display: flex;
+    align-items: center;
+
+
+    border-radius: 16px;
+
+    background-color: #8963E5;
+}
+
+.phone-number-submit{
+    background-color: white;
+    color: #6A45DE;
+}

@@ -1,0 +1,75 @@
+section{
+    padding-left: 74px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    margin-block-start: 0px;
+}
+
+.white{
+    color: white;
+}
+
+.feature-list-text-light{
+    font-size: 14px;
+    color: rgb(157, 157, 157);
+}
+
+p{
+    font-family: "Lato",sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.35;
+
+    color: rgb(28, 28, 28);
+}
+
+button{
+    width: 248px;
+    height: 56px;
+
+    border: none;
+    border-radius: 16px;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 78px;
+    width: 78px;
+
+    border-radius: 42%;
+
+    background-color: black;
+}
+
+.icon{
+    height: 45px;
+    width: 45px;
+}

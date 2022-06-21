@@ -1,0 +1,64 @@
+@import url(../../assets/css/common-styles.css);
+
+/*Common navbar styles*/
+
+.common-navbar-container{
+    background-color: #F6F6F6;
+}
+
+.common-navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px;
+
+    padding-right: 100px;
+}
+
+.common-nav-list-item{
+    display: inline;
+
+    padding-left: 30px;
+
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.common-item-link{
+    color: #909090;
+}
+
+.common-item-link:hover{
+    color: rgb(246, 82, 82);
+}
+
+/*Main navbar styles*/
+
+.monobank-logo-img{
+    width: 233px;
+
+    padding-top: 40px;
+}
+
+.main-nav-list{
+    float: right;
+    margin-top: 0px;
+
+    padding: 40px 100px;
+}
+
+.main-nav-item{
+    display: inline;
+
+    padding-left: 28px;
+
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.main-item-link{
+    color: black;
+}
+
+.main-item-link:hover{
+    color: rgb(246, 82, 82);
+}

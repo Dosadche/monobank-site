@@ -1,0 +1,20 @@
+/*Features list styles*/
+@import url(../../assets/css/common-styles.css);
+
+.features{
+    padding-bottom: 150px;
+}
+
+.features-list{
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-inline-start: 0px;
+}
+
+.features-item{
+    width: 250px;
+    padding-right: 140px;
+
+    padding-top: 40px;
+}
