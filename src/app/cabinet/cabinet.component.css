@@ -31,3 +31,53 @@
     background-color: #6A45DE;
     color: white;
 }
+
+
+
+@media(max-width: 1189px){
+    .cabinet-img{
+        width: 422px;
+    }
+}
+
+@media(max-width: 1083px){
+    section{
+        padding-right: 74px;
+    }
+    
+
+    .cabinet-img{
+        display: none;
+    }
+
+    .cabinet-content{
+        margin: 0 auto;
+        padding-left: 0;
+        width: 600px;
+    }
+}
+
+@media (max-width: 740px){
+    .cabinet{
+        padding-left: 74px;
+    }
+
+    .cabinet-content{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    h2{
+        font-size: 22px;
+        line-height: 35px;
+    }
+}
+
+
+
+

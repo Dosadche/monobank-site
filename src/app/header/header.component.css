@@ -2,6 +2,10 @@
 
 /*Common navbar styles*/
 
+.resp-navbar{
+    display: none;
+}
+
 .common-navbar-container{
     background-color: #F6F6F6;
 }
@@ -61,4 +65,97 @@
 
 .main-item-link:hover{
     color: rgb(246, 82, 82);
+}
+
+/*Responsive styles*/
+
+@media (max-width: 1230px){
+    .main-nav-item{
+        padding-left: 18px;
+    }
+}
+
+@media (max-width: 1170px){
+    .main-nav-item{
+        padding-left: 10px;
+    }
+
+    .main-nav-item{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1030px){
+    .common-navbar-container{
+        display: none;
+    }
+
+    .resp-navbar{
+        display: flex;
+    }
+
+    header{
+        background: linear-gradient(to right, #6274E3, #5f6fd8);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main-navbar{
+        display: none;
+    }
+
+    .hamburger{
+        margin: auto 0px;
+    }
+
+    .bar{
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin-bottom: 5px;
+        background-color: white;
+    }
+
+    .resp-logo{
+        margin-block-start: 0;
+        margin: auto;
+        width: 130px;
+
+        text-align: center;
+    }
+
+    .resp-logo-monobank{
+        font-weight: 700;
+    }
+
+    .resp-logo-ub{
+        font-size: 14px;
+        color: #ddd7f0;
+    }
+
+    .resp-lang{
+        margin: auto 74px auto 0px;
+
+        background-color: white;
+        width: 46px;
+        height: 20px;
+        border-radius: 4px;
+
+        font-size: 14px;
+        font-weight: 800;
+        text-align: center;
+        color: #6A45DE;
+    }
+}
+
+@media(max-width: 380px){
+    .resp-logo-monobank{
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .resp-logo-ub{
+        font-size: 12px;
+        color: #ddd7f0;
+    }
 }

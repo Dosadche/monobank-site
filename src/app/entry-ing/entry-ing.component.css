@@ -1,5 +1,8 @@
 /*Entry information styles*/
 @import url(../../assets/css/common-styles.css);
+.resp-entry-info-img{
+    display: none;
+}
 
 .entry-info{
     background:linear-gradient(#6274E3, #6A45DE);
@@ -63,4 +66,67 @@ input::placeholder{
 .phone-number-submit{
     background-color: white;
     color: #6A45DE;
+}
+
+@media (max-width: 1083px){
+    section{
+        padding-right: 74px;
+    }
+
+    .entry-info-img{
+        display: none;
+    }
+
+    .resp-entry-info-img{
+        display: block;
+        width: 100%;
+
+        margin: auto;
+    }
+
+    .enty-info-content{
+        float: none;
+
+        margin: 0 auto;
+        width: 600px;
+    }
+}
+
+@media (max-width: 1030px){
+
+    .entry-info{
+        margin-top: 0px;
+    }
+
+}
+
+@media (max-width: 740px){
+    .enty-info-content{
+        width: 100%;
+    }
+
+    form{
+        display: block;
+    }
+
+    .input-container{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .entry-info{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    h2{
+        font-size: 22px;
+        line-height: 35px;
+    }
 }
